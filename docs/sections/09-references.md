@@ -6,11 +6,8 @@
 4. Lim, B., Arık, S. Ö., Loeff, N., Pfister, T. (2021). Temporal Fusion Transformers for interpretable multi-horizon time series forecasting. *International Journal of Forecasting*, 37(4).
 5. Ke, G. et al. (2017). LightGBM: A highly efficient gradient boosting decision tree. *Advances in Neural Information Processing Systems 30.*
 6. Hu, E. J. et al. (2022). LoRA: Low-rank adaptation of large language models. *International Conference on Learning Representations.*
-7. Cho, K. et al. (2014). Learning phrase representations using RNN encoder-decoder for statistical machine translation. *EMNLP.* (GRU)
-8. Hochreiter, S., Schmidhuber, J. (1997). Long short-term memory. *Neural Computation*, 9(8).
-9. Nahmias, S. (1994). Demand estimation in lost sales inventory systems. *Naval Research Logistics*, 41(6).
-10. Rohlik Group. *Rohlik Sales Forecasting Challenge V2.* [Kaggle](https://www.kaggle.com/competitions/rohlik-sales-forecasting-challenge-v2).
-11. Bishop, C. M., Bishop, H. (2024). *Deep Learning: Foundations and Concepts.* Springer.
+7. Rohlik Group. *Rohlik Sales Forecasting Challenge V2.* [Kaggle](https://www.kaggle.com/competitions/rohlik-sales-forecasting-challenge-v2).
+8. Bishop, C. M., Bishop, H. (2024). *Deep Learning: Foundations and Concepts.* Springer. (Course textbook.)
 
 ## Project links
 

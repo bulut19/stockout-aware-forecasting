@@ -16,7 +16,7 @@ This matters because forecasting systems learn from recorded sales. A model trai
 
 ## Related work
 
-FreshRetailNet-50K was released by Dingdong with a benchmark paper that frames the task as latent demand recovery followed by forecasting. Its best forecaster, the Temporal Fusion Transformer (TFT), reached 31.75% WAPE on raw sales and 29.02% after demand recovery, scored on the stockout-free days of one test week. Censored demand is a long-standing problem in operations research: the classic newsvendor ordering model assumes demand is observed, which stockouts break. More recently, pretrained **time series foundation models** such as Amazon's Chronos-2 and Google's TimesFM-3 forecast new series with no training at all. Our professor suggested testing whether they help here.
+FreshRetailNet-50K was released by Dingdong with a benchmark paper that frames the task as latent demand recovery followed by forecasting. Its best forecaster, the Temporal Fusion Transformer (TFT), reached 31.75% WAPE on raw sales and 29.02% after demand recovery, scored on the stockout-free days of one test week. More recently, pretrained **time series foundation models** such as Amazon's Chronos-2 and Google's TimesFM-3 forecast new series with no training at all. Our professor suggested testing whether they help here.
 
 ## Our approach
 

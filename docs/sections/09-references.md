@@ -1,13 +1,12 @@
 ## References
 
-1. Wang, Y., Gu, J., Long, L. et al. (2025). *FreshRetailNet-50K: A Stockout-Annotated Censored Demand Dataset for Latent Demand Recovery and Forecasting in Fresh Retail.* [arXiv:2505.16319](https://arxiv.org/abs/2505.16319). Dataset: [Hugging Face](https://huggingface.co/datasets/Dingdong-Inc/FreshRetailNet-50K). Baseline code: [GitHub](https://github.com/Dingdong-Inc/frn-50k-baseline).
+1. Wang, Y., Gu, J., Long, L. et al. (2025). *FreshRetailNet-50K: A Stockout-Annotated Censored Demand Dataset for Latent Demand Recovery and Forecasting in Fresh Retail.* [arXiv:2505.16319](https://arxiv.org/abs/2505.16319). Dataset: [Hugging Face](https://huggingface.co/datasets/Dingdong-Inc/FreshRetailNet-50K).
 2. Ansari, A. F. et al. (2025). *Chronos-2: From Univariate to Universal Forecasting.* [arXiv:2510.15821](https://arxiv.org/abs/2510.15821). Model: [amazon/chronos-2](https://huggingface.co/amazon/chronos-2).
 3. Google Research (2026). *TimesFM-3: a zero-shot foundation model for multivariate forecasting.* [Blog post](https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/). Model: [google/timesfm-3.0-pytorch](https://huggingface.co/google/timesfm-3.0-pytorch).
 4. Lim, B., Arık, S. Ö., Loeff, N., Pfister, T. (2021). Temporal Fusion Transformers for interpretable multi-horizon time series forecasting. *International Journal of Forecasting*, 37(4).
 5. Ke, G. et al. (2017). LightGBM: A highly efficient gradient boosting decision tree. *Advances in Neural Information Processing Systems 30.*
 6. Hu, E. J. et al. (2022). LoRA: Low-rank adaptation of large language models. *International Conference on Learning Representations.*
 7. Rohlik Group. *Rohlik Sales Forecasting Challenge V2.* [Kaggle](https://www.kaggle.com/competitions/rohlik-sales-forecasting-challenge-v2).
-8. Bishop, C. M., Bishop, H. (2024). *Deep Learning: Foundations and Concepts.* Springer. (Course textbook.)
 
 ## Project links
 

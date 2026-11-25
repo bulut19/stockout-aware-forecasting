@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-label="Project pipeline: from hourly stock data to dollars">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8a8f98"/></marker>
+  </defs>
+  <rect width="960" height="300" fill="#ffffff"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#1f2328">From hourly stock data to dollars</text>
+  <g font-size="13" fill="#1f2328">
+    <!-- row 1 -->
+    <rect x="24" y="64" width="270" height="86" rx="10" fill="#f6f7f9" stroke="#b9bec7"/>
+    <text x="40" y="90" font-weight="700">1. Hourly sales + stock status</text>
+    <text x="40" y="112" fill="#57606a">50,000 product-store series</text>
+    <text x="40" y="130" fill="#57606a">FreshRetailNet-50K, 97 days</text>
+
+    <rect x="345" y="64" width="270" height="86" rx="10" fill="#fdf0e9" stroke="#d9622b" stroke-width="2"/>
+    <text x="361" y="90" font-weight="700">2. Recover missed demand</text>
+    <text x="361" y="112" fill="#57606a">fill empty-shelf hours</text>
+    <text x="361" y="130" fill="#57606a">(LightGBM + BiLSTM average)</text>
+
+    <rect x="666" y="64" width="270" height="86" rx="10" fill="#f6f7f9" stroke="#b9bec7"/>
+    <text x="682" y="90" font-weight="700">3. Two daily histories</text>
+    <text x="682" y="112" fill="#57606a">raw: recorded sales</text>
+    <text x="682" y="130" fill="#57606a">corrected: sales + filled hours</text>
+
+    <!-- row 2 -->
+    <rect x="666" y="190" width="270" height="86" rx="10" fill="#f6f7f9" stroke="#b9bec7"/>
+    <text x="682" y="216" font-weight="700">4. Forecast 7 days ahead</text>
+    <text x="682" y="238" fill="#57606a">naive, LightGBM, TFT, GRU,</text>
+    <text x="682" y="256" fill="#57606a">Chronos-2, TimesFM-3</text>
+
+    <rect x="345" y="190" width="270" height="86" rx="10" fill="#f6f7f9" stroke="#b9bec7"/>
+    <text x="361" y="216" font-weight="700">5. Score on every day</text>
+    <text x="361" y="238" fill="#57606a">observed hours, lower and</text>
+    <text x="361" y="256" fill="#57606a">upper bounds, 5 test weeks</text>
+
+    <rect x="24" y="190" width="270" height="86" rx="10" fill="#f6f7f9" stroke="#b9bec7"/>
+    <text x="40" y="216" font-weight="700">6. Order and count dollars</text>
+    <text x="40" y="238" fill="#57606a">order the 30th percentile,</text>
+    <text x="40" y="256" fill="#57606a">lost sales + spoilage</text>
+  </g>
+  <g stroke="#8a8f98" stroke-width="1.5" fill="none">
+    <path d="M294 107H343" marker-end="url(#a)"/>
+    <path d="M615 107H664" marker-end="url(#a)"/>
+    <path d="M801 150V188" marker-end="url(#a)"/>
+    <path d="M666 233H617" marker-end="url(#a)"/>
+    <path d="M345 233H296" marker-end="url(#a)"/>
+  </g>
+</svg>
